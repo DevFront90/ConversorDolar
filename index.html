@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <!--style css-->
+    <link rel="stylesheet" href="./style.css"/>
+    <!---->
+</head>
+<body>
+    <!--main-->
+    <main style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('./img/bg-hero.avif');">
+
+        <div class="center-bg">
+
+             <div class="title-page">
+                <h2>Conversor de Reais para Dólar</h2>
+             </div>
+
+            <div class="brands-fill">
+                <img src="./img/logo.avif" alt="logo"/>
+            </div>
+            
+        </div>
+
+    </main>
+    <!---->
+    <!--section session-one-->
+    <section class="session-one">
+
+         <div class="center-bg">
+
+          <div class="content-bottom">
+
+            <label for="valor">Digite o valor em Reais ($):</label>
+            <input type="number" id="valor" placeholder="Exemplo: 100">
+
+            <button onclick="converter()">Converte para Dólar</button>
+
+            <div id="resultado">O valor em dólar aparecerá aqui</div>
+            <div id="taxa-info">Taxa atual: 1 Dólar = 6 Reais</div>
+
+          </div>
+
+         </div>
+
+    </section>
+</body>
+<script src="./script.js"></script>
+</html>
