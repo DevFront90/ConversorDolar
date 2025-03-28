@@ -128,7 +128,7 @@ button {
 /* media queries */
 @media screen and (max-width:768px){
     .title-page h2 {
-       font-size: 30px;
+       font-size: 28px;
       
     }
 
